@@ -12,6 +12,9 @@
     <artifactId>sales-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>../sales-common</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR5</spring-cloud.version>
